@@ -8,7 +8,7 @@ public static class Kata
     text = DeleteCharacters(text);
     text.ToUpper();
     var chars = text.ToCharArray();
-    text ="";
+    text = "";
     for (int i = 0; i < chars.Length; i++)
     {
         int index = Array.IndexOf(alpha,chars[i++]);

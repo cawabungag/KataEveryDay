@@ -14,7 +14,7 @@ public class Kata
     if(str.Contains("_")){
         return SplitString(str,"_");
     }
-    return String.Empty();
+    return "";
   }
 
   static string SplitString(string str, string _case){
