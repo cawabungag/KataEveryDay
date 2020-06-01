@@ -2,9 +2,6 @@ public class SplitString
 {
   public static string[] Solution(string str)
   {
-      if(string.IsNullOrEmpty){
-          return "";
-      }
     var ans = "";
     for (int i = 0; i < str.Length; i++)
     {
